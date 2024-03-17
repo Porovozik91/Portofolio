@@ -164,7 +164,7 @@ export function Island({
 
       // Stop rotation when speed is very small
       if (Math.abs(rotationSpeed.current) < 0.001) {
-        rotationSpeed.current = 0;
+        rotationSpeed.current = -0.001;
       }
 
       islandRef.current.rotation.y += rotationSpeed.current;

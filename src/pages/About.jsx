@@ -12,23 +12,24 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
+        Hei! Jeg heter{" "}
+        <span className='text-4xl text-green-700 font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Adam
         </span>{" "}
-        👋
+        😊
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Minima autem a laborum corrupti exercitationem ratione debitis voluptatem! 
+          Soluta, quas, iste debitis veritatis quaerat nobis asperiores esse iusto ab, inventore omnis.
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Ferdigheter</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -47,11 +48,12 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Jobb Erfaring</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quaerat nam officia eligendi adipisci laborum eaque vel quis fuga illo eos? 
+            Sunt ab libero iure eos, molestias veritatis reprehenderit cumque voluptatum.
           </p>
         </div>
 

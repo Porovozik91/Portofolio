@@ -5,24 +5,24 @@ import { arrow } from "../assets/icons";
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
-      <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Adrian</span>
-        👋
+      <h1 className='font-medium sm:text-xl text-center rounded-lg bg-black-500 text-white py-4 px-8 mx-5'>
+        Здраствуйте, Меня зовут 
+        <span className='font-semibold mx-2 text-green-400'>Муслим Метаев</span>
+        🦾👽👋
         <br />
-        A Software Engineer from Croatia 🇭🇷
+        Я крупный разроботчик ипо и ит технологи. Я работаю с <br /> Three.js <br /> React <br /> 
       </h1>
     );
 
   if (currentStage === 2) {
     return (
-      <div className='info-box'>
+      <div className='font-medium sm:text-xl text-center rounded-lg bg-black-500 text-white py-4 px-8 mx-5'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          Ny i Front end <br /> og koder mye i fritiden min
         </p>
 
-        <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+        <Link to='/about' className='font-semibold mx-2 text-green-400'>
+          Les mer
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -31,28 +31,28 @@ const HomeInfo = ({ currentStage }) => {
 
   if (currentStage === 3) {
     return (
-      <div className='info-box'>
-        <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
-        </p>
+      <div className='font-medium sm:text-xl text-center rounded-lg bg-black-500 text-white py-4 px-8 mx-5'>
+      <p className='font-medium sm:text-xl text-center'>
+        Kommende Prosjekter ----<br/>
+      </p>
 
-        <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-        </Link>
-      </div>
+      <Link to='/contact' className='font-semibold mx-2 text-green-400'>
+        Les mer!
+        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+      </Link>
+    </div>
     );
   }
 
   if (currentStage === 4) {
     return (
-      <div className='info-box'>
+      <div className='font-medium sm:text-xl text-center rounded-lg bg-black-500 text-white py-4 px-8 mx-5'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+      Trenger du en interaktiv nettside? <br/> <br/>  Jeg er bare et tastetrykk unna!
       </p>
 
-      <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+      <Link to='/contact' className='font-semibold mx-2 text-green-400'>
+        Kontakt meg!
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
